@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harvester Service</title>
+  <style>
+    body {font-family: Arial; margin:0; padding:0;}
+    header {background:#2d6a4f; color:white; padding:15px; text-align:center;}
+    nav {background:#40916c; padding:10px; text-align:center;}
+    nav a {color:white; margin:10px; text-decoration:none; font-weight:bold;}
+    section {padding:20px;}
+    .card {border:1px solid #ccc; padding:15px; margin:10px; border-radius:10px;}
+    .btn {display:inline-block; padding:10px 15px; background:#2d6a4f; color:white; text-decoration:none; border-radius:5px;}
+    .gallery {display:flex; flex-wrap:wrap; gap:10px; justify-content:center;}
+    .gallery img {width:300px; border-radius:10px; box-shadow:0 0 10px rgba(0,0,0,0.2);}
+    form {max-width:400px; margin:auto;}
+    input, textarea {width:100%; padding:10px; margin:8px 0; border-radius:5px; border:1px solid #ccc;}
+    footer {background:#1b4332; color:white; text-align:center; padding:10px;}
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Sagar Harvester Service</h1>
+  <p>तेज, भरोसेमंद और सस्ती कटाई सेवा</p>
+  <a class="btn" href="tel:6392123395">📞 अभी कॉल करें</a>
+</header>
+
+<nav>
+  <a href="#home">होम</a>
+  <a href="#services">सेवा</a>
+  <a href="#rates">रेट</a>
+  <a href="#gallery">फोटो</a>
+  <a href="#booking">बुकिंग</a>
+  <a href="#map">लोकेशन</a>
+  <a href="#contact">संपर्क</a>
+</nav>
+
+<section id="home">
+  <h2>हमारे बारे में</h2>
+  <p>हम आधुनिक हार्वेस्टर मशीन के साथ गेहूं, धान लाही व अन्य फसलों की कटाई करते हैं। हमारी सेवा तेज और भरोसेमंद है।</p>
+</section>
+
+<section id="services">
+  <h2>हमारी सेवाएं</h2>
+  <div class="card">✔ गेहूं कटाई</div>
+  <div class="card">✔ धान कटाई</div>
+  <div class="card">✔ खेत के अनुसार कस्टम काम</div>
+</section>
+
+<section id="rates">
+  <h2>रेट लिस्ट</h2>
+  <p>गेहूं कटाई: ₹ 2000 प्रति एकड़</p>
+  <p>धान कटाई: ₹ 1800 प्रति एकड़</p>
+</section>
+
+<section id="gallery">
+  <h2>हमारी मशीन</h2>
+  <div class="gallery">
+    <img src="harvester1.jpg" alt="Harvester Image 1">
+    <img src="harvester2.jpg" alt="Harvester Image 2">
+  </div>
+</section>
+
+<section id="booking">
+  <h2>बुकिंग फॉर्म</h2>
+  <form action="https://formspree.io/f/mkopgnjo" method="POST">
+    <input type="text" name="name" placeholder="आपका नाम" required>
+    <input type="tel" name="phone" placeholder="मोबाइल नंबर" required>
+    <input type="text" name="village" placeholder="गांव / लोकेशन" required>
+    <input type="text" name="crop" placeholder="फसल (गेहूं/धान)" required>
+    <textarea name="message" placeholder="अन्य जानकारी"></textarea>
+    <button class="btn" type="submit">बुकिंग भेजें</button>
+  </form>
+</section>
+
+<section id="map">
+  <h2>हमारी लोकेशन</h2>
+  <iframe src="https://maps.google.com/maps?q=Lakhimpur%20Kheri&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="300" style="border:0;"></iframe>
+</section>
+
+<section id="contact">
+  <h2>संपर्क करें</h2>
+  <p>📞 मोबाइल: 7068902931</p>
+  <p>📍 लोकेशन: Girdharpuri, Paliya kalan, Lakhimpur Kheri</p>
+  <a class="btn" href="https://wa.me/916392123395?text=Namaste%20mujhe%20harvester%20booking%20karni%20hai">WhatsApp पर संपर्क करें</a>
+</section>
+
+<footer>
+  <p>© 2026 Sagar Harvester Service</p>
+</footer>
+
+</body>
+</html>
